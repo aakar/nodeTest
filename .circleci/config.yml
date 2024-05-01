@@ -13,7 +13,7 @@ jobs:
     environment:
       NODE_OPTIONS: --max-old-space-size=8192
     docker:
-    - image: circleci/python:3
+      - image: cimg/base:stable
     steps:
     - checkout
     - set_environment_vars
